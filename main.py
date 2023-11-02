@@ -3,10 +3,9 @@ def mini_dict(str_ing):
     # print(str_ing)
     list_spl = str_ing.split(' | ')
     dict_['ingredient_name'] = list_spl[0]
-    dict_['quantity'] = list_spl[1]
+    dict_['quantity'] = int(list_spl[1])
     dict_['measure'] = list_spl[2][:-1]
     return dict_
-
 
 
 def cook_book_dict(file_name):
@@ -25,5 +24,5 @@ def cook_book_dict(file_name):
     return cook_book
 
 
-
-print(cook_book_dict('cook_book.txt'))
+cook_book = cook_book_dict('cook_book.txt')
+print(cook_book)
