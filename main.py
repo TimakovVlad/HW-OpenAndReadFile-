@@ -56,7 +56,6 @@
 with open('1.txt', encoding='utf-8') as f_1, open('2.txt', encoding='utf-8') as f_2, open('3.txt', encoding='utf-8') as f_3:
     list_1 = f_1.readlines()
     list_2 = f_2.readlines()
-    print(list_2)
     list_3 = f_3.readlines()
     sorted_list = [list_1, list_2, list_3]
     sorted_list.sort()
