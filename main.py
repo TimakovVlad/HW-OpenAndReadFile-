@@ -1,6 +1,5 @@
 # def mini_dict(str_ing):
 #     dict_ = {}
-#     # print(str_ing)
 #     list_spl = str_ing.split(' | ')
 #     dict_['ingredient_name'] = list_spl[0]
 #     dict_['quantity'] = int(list_spl[1])
